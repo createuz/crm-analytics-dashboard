@@ -10,7 +10,7 @@ ram:
 	python3 manage.py ram
 
 admin:
-	python3 manage.py createsuperuser --noinput
+	python manage.py createsuperuser --noinput
 
 remig:
 	make unmig
